@@ -6,6 +6,9 @@ OUTPUT_PP_PATH = dist/slides.pptx
 usage :
 	@grep '^[^#[:space:]].*:' Makefile
 
+install :
+	npm install
+
 watch_html :
 	npx @marp-team/marp-cli -w ${SOURCE_PATH} -o ${OUTPUT_HTML_PATH}
 
