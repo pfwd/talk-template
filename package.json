@@ -4,7 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:all": "npm run build:html && npm run build:pdf && npm run build:pp",
+    "build:html": "marp",
+    "build:pdf": "marp --pdf",
+    "build:pp": "marp --pptx",
+    "clean": "rm -fr dist/*.{html,pdf,pptx}",
+    "preview": "marp --preview",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch:html": "marp --watch"
   },
   "author": "",
   "license": "Apache2",
