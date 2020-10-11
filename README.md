@@ -8,36 +8,38 @@ A talk template that uses Marp CLI
 $ git clone git@github.com:pfwd/talk-template.git
 `````
 
-2 Run install using Makefile
+2 Install dependencies
 
 ```bash
-$ make install
-`````
+$ npm install
+```
 Update `src/slides.md` with content.  
 Add images to `src/assets/images/`.
 
 ## Build slide deck
 
+Use `npm run` to see all of the available commands.
+
 ### Build HTML from slides
 
 ```bash
-$ make build_html
+$ npm run build:html
 ```
 
 ### Watch HTML from slides
 
 ```bash
-$ make watch_html
+$ npm run watch:html
 ```
 
 ### Build PDF from slides
 
 ```bash
-$ make build_pdf
+$ npm run build:pdf
 ```
 
 ### Build PPT from slides
 
 ```bash
-$ make build_pp
+$ npm run build:pp
 ```
