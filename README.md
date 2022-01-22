@@ -18,7 +18,7 @@ Add images to `src/assets/images/`.
 
 ## Build slide deck
 
-Use `npm run` to see all of the available commands.
+Use `npm run` to see all available commands.
 
 ### Build HTML from slides
 
