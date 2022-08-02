@@ -16,7 +16,7 @@
   "author": "",
   "license": "Apache2",
   "devDependencies": {
-    "@marp-team/marp-cli": "^1.5.1"
+    "@marp-team/marp-cli": "^2.0.4"
   },
   "marp": {
     "allowLocalFiles": true,
